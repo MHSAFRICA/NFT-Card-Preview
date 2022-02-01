@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800;900&family=Poppins:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Outfit;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+#cryptoCard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 33em;
+  width: 20em;
+  background-color: hsl(216, 50%, 16%);
+  margin-left: 38vw;
+  margin-right: 40vw;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  border-radius: 1em;
+}
+#cryptoCard h1 {
+  padding-top: 1em;
+  padding-bottom: 0.8em;
+  margin-left: 2em;
+  color: #fff;
+}
+#cryptoCard hr {
+  width: 240px;
+  color: #fff;
+}
+#cryptoImg {
+  width: 270px;
+  height: 280px;
+  border-radius: 10px;
+}
+#cryptoType {
+  font-size: 18px;
+  margin-right: 7em;
+}
+.box-3 {
+  display: flex;
+  flex-direction: row;
+  font-size: 60%;
+  margin-bottom: 2em;
+}
+.box-3 h2 {
+  padding: 0;
+  padding-right: 2em;
+}
+.box-3 img {
+  margin-right: 0.8em;
+}
+.box-4 {
+  padding-top: 1.6em;
+  display: flex;
+  flex-direction: row;
+}
+.box-4 img {
+  width: 10%;
+  border-style: solid;
+  border-color: #fff;
+  border-radius: 2em;
+  border-width: 1.2px;
+}
+#cryptoCount {
+  color: hsl(178, 100%, 50%);
+}
+#timeLeft {
+  color: hsl(215, 51%, 70%);
+}
+#descText {
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  padding-bottom: 1em;
+}
+#avatar {
+  margin-left: 2em;
+}
+#creator {
+  font-size: 80%;
+  margin-left: 1em;
+}
+#creatorP1 {
+  color: hsl(215, 51%, 70%);
+}
+#creatorP2 {
+  color: #fff;
+}
